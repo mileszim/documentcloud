@@ -1,7 +1,9 @@
 require 'rest_client'
 require 'multi_json'
 require 'date'
+require 'cgi'
 
+require_relative 'document_cloud/version'
 require_relative 'document_cloud/document'
 require_relative 'document_cloud/project'
 require_relative 'document_cloud/search_results'
