@@ -1,0 +1,33 @@
+PATH
+  remote: .
+  specs:
+    documentcloud (0.5.0)
+      multi_json (~> 1.8)
+      rest-client (~> 1.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    domain_name (0.5.20170404)
+      unf (>= 0.0.5, < 1.0.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    mime-types (2.99.3)
+    multi_json (1.12.2)
+    netrc (0.11.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  documentcloud!
+
+BUNDLED WITH
+   1.16.0
