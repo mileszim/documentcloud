@@ -1,6 +1,6 @@
 language: ruby
-build: bundle install --jobs=3 --retry=3
-script: rspec
+install: bundle install --jobs=3 --retry=3
+script: bundle exec rspec
 rvm:
   - 2.5
   - 2.4
