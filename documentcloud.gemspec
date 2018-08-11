@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rest-client", "~> 1.8"
+  spec.add_dependency "rest-client", ">= 1.8", "< 3.0"
   spec.add_dependency "multi_json", "~> 1.8"
 
   spec.add_development_dependency "rspec", "~> 3.8"
