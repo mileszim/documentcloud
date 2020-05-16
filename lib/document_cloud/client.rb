@@ -6,6 +6,7 @@ require_relative 'api/document'
 require_relative 'api/update'
 require_relative 'api/destroy'
 require_relative 'api/entities'
+require_relative 'api/oembed'
 require_relative 'api/projects'
 require_relative 'api/create_project'
 require_relative 'api/update_project'
@@ -19,6 +20,7 @@ module DocumentCloud
     include DocumentCloud::API::Update
     include DocumentCloud::API::Destroy
     include DocumentCloud::API::Entities
+    include DocumentCloud::API::OEmbed
     include DocumentCloud::API::Projects
     include DocumentCloud::API::CreateProject
     include DocumentCloud::API::UpdateProject

@@ -3,6 +3,7 @@ require 'multi_json'
 require 'date'
 
 require_relative 'document_cloud/document'
+require_relative 'document_cloud/oembed'
 require_relative 'document_cloud/project'
 require_relative 'document_cloud/search_results'
 require_relative 'document_cloud/default'

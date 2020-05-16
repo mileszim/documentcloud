@@ -47,6 +47,14 @@ module DocumentCloud
       @entities ||= DocumentCloud.entities(@id)
       @entities
     end
+
+    # Fetch oembed object for this document
+    #
+    # @param options [Hash] Options Hash with oEmbed's parameters
+    # @returns [DocumentCloud::OEmbed] object wrapper to oEmbed's json response
+    def oembed(options)
+      @oembed = DocumentCloud.oembed(@canonical_url, options)
+    end
     
   end
 end
